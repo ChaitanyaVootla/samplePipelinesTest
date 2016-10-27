@@ -10,6 +10,11 @@ jobs:
       - IN: dv-img
       - IN: dv-img-opts
       - TASK: managed
+  - name: jenkins
+    type: jenkinsJob
+    integration: "jenkins-production"
+    pointer:
+      sourceName: "fruit"  # This is the job name on Jenkins
 
 #/ manifest gen for VISUALIZER
 
