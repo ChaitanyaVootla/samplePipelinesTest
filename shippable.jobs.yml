@@ -12,7 +12,7 @@ jobs:
       - TASK: managed
   - name: jenkins
     type: jenkinsJob
-    integration: "jenkins-production"
+    integration: "jenkins"
     pointer:
       sourceName: "fruit"  # This is the job name on Jenkins
 
